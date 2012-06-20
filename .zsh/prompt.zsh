@@ -1,6 +1,6 @@
 autoload -U promptinit
 promptinit
-prompt adam2 8bit green
+prompt adam2 8bit green green red white
 
 function precmd() {
     if [ -d .git ]; then

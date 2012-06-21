@@ -3,8 +3,8 @@
 #load configs
 DIR="$HOME/.zsh"
 
-for FILE in `ls $DIR`; do
-    source "$DIR/$FILE"
+for FILE in `ls $DIR/*.zsh`; do
+    source $FILE
 done
 
 # set Emacs mode

@@ -17,4 +17,4 @@ bindkey  '^[[Z' reverse-menu-complete
 setopt AUTO_CD
 
 #RVM
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+PATH=$PATH:$HOME/.rvm/bin:/usr/local/texlive/2011/bin/x86_64-darwin # Add RVM to PATH for scripting

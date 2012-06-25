@@ -16,9 +16,6 @@ autocmd FileType python set omnifunc=pythoncomplete
 " relative number
 if exists("&relativenumber")
     set relativenumber
-    silent! autocmd InsertEnter * :set number
-    silent! autocmd InsertLeave * :set relativenumber
-    silent! au FocusLost * :set number
 endif
 
 "remember last position

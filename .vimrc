@@ -13,9 +13,21 @@ set ruler
 
 autocmd FileType python set omnifunc=pythoncomplete
 
+" relative number
+if exists("&relativenumber")
+    set relativenumber
+    silent! autocmd InsertEnter * :set number
+    silent! autocmd InsertLeave * :set relativenumber
+    silent! au FocusLost * :set number
+endif
+
 "remember last position
 set viminfo='10,\"100,:20,%,n~/.viminfo
 au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
+
+
+
+
 
 "for Python
 

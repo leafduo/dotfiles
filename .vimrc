@@ -7,7 +7,7 @@ set tabstop=4
 set shiftwidth=4
 set smartindent
 set showmatch
-set backup
+set nobackup
 set expandtab
 set ruler
 

@@ -10,6 +10,8 @@ set showmatch
 set nobackup
 set expandtab
 set ruler
+set mouse=a
+set clipboard=unnamed
 
 autocmd FileType python set omnifunc=pythoncomplete
 

@@ -1,5 +1,9 @@
 # alias
-alias ls='ls -hG'
+if [[ "`uname`" == 'Linux' ]] ; then
+    alias ls='ls -h --color'
+elif [[ "`uname`" == 'Darwin' ]] ; then
+    alias ls='ls -hG'
+fi
 alias ll='ls -ahlG'
 alias grep="grep --color"
 alias fgrep="fgrep --color"

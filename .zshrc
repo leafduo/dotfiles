@@ -1,11 +1,14 @@
 #!/bin/zsh
 
-#load configs
+# load configs
 DIR="$HOME/.zsh"
 
 for FILE in `ls $DIR/*.zsh`; do
     source $FILE
 done
+
+# set locale
+export LANG=en_US.UTF-8
 
 # set Emacs mode
 bindkey -e

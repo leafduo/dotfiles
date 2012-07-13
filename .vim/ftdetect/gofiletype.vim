@@ -1,1 +1,1 @@
-au BufRead,BufNewFile *.go set filetype=go
+/usr/local/Cellar/go/HEAD/misc/vim/ftdetect/gofiletype.vim

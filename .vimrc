@@ -42,3 +42,25 @@ au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|
 " Use the below highlight group when displaying bad whitespace is desired.
 highlight BadWhitespace ctermbg=red guibg=red
 
+" Keep 3 lines visible down from the cursor while scrolling
+set scrolloff=3
+
+" If file is not modified in VIM but changed outside, reload it
+set autoread
+
+" Keep commands history longer (by default keeps only 20 commands)
+set history=1000
+
+" Smart search: if lowercase ignore case of matches, if not case-sensitive
+" search
+set smartcase
+
+" For new lines automatically indent by current line indent
+set autoindent
+set copyindent
+
+" Allow to overwrite root protected files (in case of missed sudo)
+cmap w!! %!sudo tee > /dev/null %
+
+" Enable CursorLine
+set cursorline

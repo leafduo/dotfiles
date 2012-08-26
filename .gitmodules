@@ -28,3 +28,6 @@
 [submodule ".vim/bundle/csv.vim"]
 	path = .vim/bundle/csv.vim
 	url = git://github.com/chrisbra/csv.vim.git
+[submodule ".vim/bundle/dwm.vim"]
+	path = .vim/bundle/dwm.vim
+	url = git://github.com/spolu/dwm.vim.git

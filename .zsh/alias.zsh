@@ -11,7 +11,7 @@ alias du="du -h"
 alias aria2c="aria2c -j16 -s16 --max-connection-per-server=16 --min-split-size=1M"
 alias rm="rm -i"
 
-alias v="vim"
+alias v="/Applications/MacVim.app/Contents/MacOS/Vim"
 alias p="python"
 alias g="git"
 alias r="ruby"

@@ -16,6 +16,9 @@ set undofile
 set undodir=~/.vim/undo
 
 syntax on
+filetype on
+filetype indent on
+filetype plugin on
 set nocompatible
 set hls
 set tabstop=4

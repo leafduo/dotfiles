@@ -31,3 +31,6 @@
 [submodule ".vim/bundle/dwm.vim"]
 	path = .vim/bundle/dwm.vim
 	url = git://github.com/spolu/dwm.vim.git
+[submodule ".vim/bundle/Decho"]
+	path = .vim/bundle/Decho
+	url = git://github.com/vim-scripts/Decho.git

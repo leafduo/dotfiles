@@ -28,7 +28,8 @@ set showmatch
 set expandtab
 set ruler
 set mouse=a
-set clipboard=unnamed
+colorscheme Tomorrow-Night
+"set clipboard=unnamed
 set laststatus=2
 
 autocmd FileType python set omnifunc=pythoncomplete

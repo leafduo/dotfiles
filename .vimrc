@@ -24,6 +24,7 @@ set hls
 set tabstop=4
 set shiftwidth=4
 set smartindent
+set smartcase
 set showmatch
 set expandtab
 set ruler

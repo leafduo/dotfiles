@@ -22,8 +22,8 @@ bindkey  '^[[Z' reverse-menu-complete
 # set AUTO_CD
 setopt AUTO_CD
 
-#RVM
-PATH=$PATH:$HOME/.rvm/bin:/usr/local/texlive/2011/bin/x86_64-darwin # Add RVM to PATH for scripting
+# Add some paths
+PATH=$PATH:$HOME/.rvm/bin:/usr/local/texlive/2011/bin/x86_64-darwin:bin/arcanist/bin
 
 # Start tmux
 if [[ -z $TMUX ]]; then

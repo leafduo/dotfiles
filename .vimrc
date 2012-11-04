@@ -10,6 +10,8 @@ set modelines=0     " CVE-2007-2438
 set nocompatible    " Use Vim defaults instead of 100% vi compatibility
 set backspace=2     " more powerful backspacing
 
+let mapleader = ","
+
 set backup
 set backupdir=~/.vim/backup
 set undofile
@@ -24,11 +26,11 @@ set hls
 set tabstop=4
 set shiftwidth=4
 set smartindent
-set smartcase
 set showmatch
 set expandtab
 set ruler
 set mouse=a
+set ttymouse=xterm2
 colorscheme Tomorrow-Night
 "set clipboard=unnamed
 set laststatus=2
@@ -39,6 +41,9 @@ autocmd FileType python set omnifunc=pythoncomplete
 if exists("&relativenumber")
     set relativenumber
 endif
+
+" Use templates when creating new files
+autocmd! BufNewFile * silent! 0r ~/.vim/skel/tmpl.%:e
 
 "remember last position
 set viminfo='10,\"100,:20,%,n~/.viminfo

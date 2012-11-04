@@ -37,6 +37,9 @@ set laststatus=2
 
 autocmd FileType python set omnifunc=pythoncomplete
 
+" Show spaces
+set list listchars=tab:>-,trail:.
+
 " relative number
 if exists("&relativenumber")
     set relativenumber

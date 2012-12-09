@@ -24,8 +24,3 @@ setopt AUTO_CD
 
 # Add some paths
 PATH=$PATH:$HOME/.rvm/bin:/usr/local/texlive/2011/bin/x86_64-darwin:$HOME/bin/arcanist/bin
-
-# Start tmux
-if [[ -z $TMUX ]]; then
-    tmux attach
-fi

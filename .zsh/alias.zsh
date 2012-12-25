@@ -22,4 +22,4 @@ alias smb="/Applications/SuperMeatBoy.app/Contents/MacOS/SuperMeatBoy -fullscree
 alias rake="noglob rake"
 alias purge-arc-patch="git branch | grep arcpatch | xargs git branch -D {}"
 
-alias "ad"="arc diff --reviewers dengjiebin,wanliqun --cc aragorn.young"
+alias "ad"="arc diff --reviewers wanliqun --cc aragorn.young"

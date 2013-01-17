@@ -23,4 +23,4 @@ bindkey  '^[[Z' reverse-menu-complete
 setopt AUTO_CD
 
 # Add some paths
-PATH=$PATH:$HOME/.rvm/bin:/usr/local/texlive/2011/bin/x86_64-darwin:$HOME/bin/arcanist/bin
+PATH=$PATH:$HOME/.rvm/bin:/usr/local/texlive/2011/bin/x86_64-darwin:$HOME/bin/arcanist/bin:/usr/local/Cellar/smlnj/110.75/libexec/bin

@@ -39,7 +39,7 @@ hi VertSplit    guifg=#eeeeec guibg=#eeeeec
 hi Folded       guifg=#eeeeec guibg=#75507b
 hi Folded       ctermfg=white ctermbg=magenta
 hi Visual       guifg=#d3d7cf guibg=#4e9a06
-hi Visual       ctermbg=white ctermfg=lightgreen cterm=reverse
+hi Visual       ctermbg=green ctermfg=black cterm=reverse
 
 " Specials
 hi Todo         guifg=#8ae234 guibg=#4e9a06 gui=bold

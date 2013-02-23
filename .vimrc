@@ -31,7 +31,7 @@ set expandtab
 set ruler
 set mouse=a
 set ttymouse=xterm2
-colorscheme Tomorrow-Night
+colorscheme tango
 "set clipboard=unnamed
 set laststatus=2
 

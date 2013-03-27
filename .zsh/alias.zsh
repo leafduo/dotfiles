@@ -20,11 +20,9 @@ fi
 alias p="python"
 alias g="git"
 alias r="ruby"
+alias s="sudo"
 alias rb="irb"
 alias rdb="r -r debug"
 alias mongod="mongod --config /usr/local/etc/mongod.conf"
-alias smb="/Applications/SuperMeatBoy.app/Contents/MacOS/SuperMeatBoy -fullscreen -1440x900"
 alias rake="noglob rake"
 alias purge-arc-patch="git branch | grep arcpatch | xargs git branch -D {}"
-
-alias "ad"="arc diff --reviewers wanliqun,zouxifeng,huwenwei --cc aragorn.young,cjiang"

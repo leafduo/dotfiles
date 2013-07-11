@@ -1,0 +1,16 @@
+[user]
+	name = Zuyang Kou
+    email = leafduo@gmail.com
+[github]
+    user = leafduo
+    token = d8366f0649a557f8b17d9b3be8ca791a
+[alias]
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+    co = checkout
+    s = status
+[color]
+    ui = true
+[help]
+	autocorrect = 5
+[push]
+	default = matching

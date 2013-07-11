@@ -64,9 +64,6 @@
 [submodule ".vim/bundle/vim-addon-mw-utils"]
 	path = .vim/bundle/vim-addon-mw-utils
 	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
-[submodule ".vim/bundle/snipmate-snippets"]
-	path = .vim/bundle/snipmate-snippets
-	url = git://github.com/honza/snipmate-snippets.git
 [submodule ".vim/bundle/vim-racket"]
 	path = .vim/bundle/vim-racket
 	url = git://github.com/wlangstroth/vim-racket.git

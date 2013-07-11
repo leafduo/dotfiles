@@ -8,5 +8,6 @@ Dir['.*'].each do |file|
     next if file =~ /^(\.git.*|.|..)$/
     target = File.join("dotfiles", "#{file}")
     `cd ~ && ln -s #{target} #{file}`
+`cd ~ && ln -s ../.gitconfig .gitconfig`
 end
 

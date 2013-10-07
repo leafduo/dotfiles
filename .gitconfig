@@ -14,3 +14,5 @@
 	autocorrect = 5
 [push]
 	default = matching
+[core]
+	excludesfile = ~/.gitignore_global

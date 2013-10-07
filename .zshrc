@@ -8,7 +8,7 @@ for FILE in `ls $DIR/*.zsh`; do
 done
 
 # Support Homebrew
-export PATH=/usr/local/bin:$PATH
+export PATH=~/bin:~/bin/play:/usr/local/bin:$PATH
 
 # set locale
 export LANG=en_US.UTF-8

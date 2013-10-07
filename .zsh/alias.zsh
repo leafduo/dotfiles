@@ -26,3 +26,5 @@ alias rdb="r -r debug"
 alias mongod="mongod --config /usr/local/etc/mongod.conf"
 alias rake="noglob rake"
 alias purge-arc-patch="git branch | grep arcpatch | xargs git branch -D {}"
+alias gs='git status'
+alias gl='git lg'

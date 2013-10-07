@@ -37,6 +37,9 @@ set laststatus=2
 
 autocmd FileType python set omnifunc=pythoncomplete
 
+" Show hidden files in NERDTree
+let NERDTreeShowHidden=1
+
 " Show spaces
 set list listchars=tab:>-,trail:.
 

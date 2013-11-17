@@ -1,6 +1,6 @@
 [user]
 	name = Zuyang Kou
-    email = leafduo@gmail.com
+	email = leafduo@gmail.com
 [github]
     user = leafduo
     token = d8366f0649a557f8b17d9b3be8ca791a
@@ -8,6 +8,7 @@
     lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
     co = checkout
     s = status
+	pr = !sh -c 'stash pull-request $0 $@'
 [color]
     ui = true
 [help]
@@ -15,4 +16,12 @@
 [push]
 	default = matching
 [core]
-	excludesfile = ~/.gitignore_global
+	excludesfile = /Users/leafduo/.gitignore_global
+[credential]
+	helper = osxkeychain
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true

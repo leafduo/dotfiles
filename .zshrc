@@ -10,6 +10,8 @@ done
 # Support Homebrew
 export PATH=~/bin:~/bin/play:/usr/local/bin:$PATH
 
+export GOPATH=$HOME/go
+
 # set locale
 export LANG=en_US.UTF-8
 

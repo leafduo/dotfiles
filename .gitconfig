@@ -14,7 +14,7 @@
 [help]
 	autocorrect = 5
 [push]
-	default = matching
+	default = current
 [core]
 	excludesfile = /Users/leafduo/.gitignore_global
 [credential]

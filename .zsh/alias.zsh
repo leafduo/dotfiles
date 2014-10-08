@@ -10,12 +10,9 @@ alias fgrep="fgrep --color"
 alias du="du -h"
 alias aria2c="aria2c -j16 -s16 --max-connection-per-server=16 --min-split-size=1M --file-allocation=none"
 alias rm="rm -i"
+alias swift='/Applications/Xcode6-Beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift'
 
-if [[ $(uname) == 'Darwin' ]] then
-    alias v="/Applications/MacVim.app/Contents/MacOS/Vim"
-else
-    alias v="vim"
-fi
+alias v="vim"
 
 alias p="python"
 alias g="git"

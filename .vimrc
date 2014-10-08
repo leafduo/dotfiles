@@ -5,6 +5,11 @@ call pathogen#infect()
 " Configuration file for vim
 set modelines=0     " CVE-2007-2438
 
+" Cocoapods
+
+au BufRead,BufNewFile Podfile set filetype=ruby
+au BufRead,BufNewFile *.podspec set filetype=ruby
+
 " Normally we use vim-extensions. If you want true vi-compatibility
 " remove change the following statements
 set nocompatible    " Use Vim defaults instead of 100% vi compatibility
@@ -81,3 +86,6 @@ cmap w!! %!sudo tee > /dev/null %
 
 " Enable CursorLine
 set cursorline
+
+" ObjC
+let g:filetype_m = 'objc'
